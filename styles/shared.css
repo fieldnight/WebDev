@@ -1,0 +1,28 @@
+body {
+  font-family: "Chango", sans-serif;
+  text-align: center;
+  background-color: rgb(244, 222, 222);
+  margin: 50px;
+  font-size: 20px;
+  color: rgba(170, 79, 134, 0.645);
+}
+
+h1 {
+  font-family: "Cataraman", sans-serif;
+  font-size: 30px;
+  color: rgb(249, 145, 145);
+}
+
+a {
+  text-decoration: none;
+  color: cadetblue;
+}
+a:hover {
+  color: cornflowerblue;
+  text-decoration: underline;
+}
+
+#return {
+  font-family: "Cataraman", sans-serif;
+  font-size: 20px;
+}

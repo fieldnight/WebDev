@@ -1,0 +1,40 @@
+/* 스타일을 지정한 css script
+       global css <-> 인라인 스타일  */
+
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  /* 테두리의 원형 정도 */
+  border: 5px solid salmon;
+  display: inline-block;
+  margin-top: -134px;
+
+  /* 이미지는 텍스트로 취급. 그러나 text-align: 은 단락 요소 속 콘텐츠를 배치하는 것. 요소 그 자체가 아닌 요소에 중첩된 콘텐츠에 영향 미친다. 이미지는 빈 요소라 그대로 사용 불가. body 안에 img 들었으니 body에 적용해야 함. */
+}
+
+main {
+  width: 800px;
+  margin: 200px auto 72px auto;
+  background-color: antiquewhite;
+  padding: 24px;
+  /* 메인에 padding 처리시 요소의 테두리 간의 거리를 넓혀줌. */
+  border: 5px solid rgba(255, 179, 179, 0.573);
+  border-radius: 20px;
+  box-shadow: 1px 2px 8px rgba(93, 49, 31, 0.712);
+}
+
+h1 {
+  font-size: 30px;
+}
+
+span {
+  color: rgb(226, 100, 100);
+}
+/* css 선택자 : 유형 선택자, 미우스 앵커 선택자, id 선택자 둥..  */
+#main {
+  font-family: "Chango", sans-serif;
+  color: rgba(170, 79, 134, 0.645);
+  font-weight: 100;
+  font-size: 52px;
+}
